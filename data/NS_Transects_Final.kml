@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>NS_Transects</name>
+	<open>1</open>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;}</style><table style="width: 300px;"><tr><td style="vertical-align: top;">Source</td><td style="width: 100%;">sg_starts.csv</td></tr><tr><td>DateTime</td><td>2023-10-17 19:09:39 UTC <br/></td></tr><tr><td colspan="2" style="vertical-align: top;"><br/>Created with <a target='_blank' href='https://www.earthpoint.us/ExcelToKml.aspx'>Earth Point Excel To KML</a><br/>&copy;2023 Earth Point<br/><br/>For illustration only.&nbsp; User to verify all information. </td></tr></table>]]></description>
+	<Style>
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+			<textColor>ff000000</textColor>
+			<displayMode>default</displayMode>
+		</BalloonStyle>
+	</Style>
+	<Schema name="TBEP_Northshore_Seagrass_Transects_NAD_2011" id="S_TBEP_Northshore_Seagrass_Transects_NAD_2011_II">
+		<SimpleField type="int" name="Meter"><displayName>&lt;b&gt;Meter&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="Transect"><displayName>&lt;b&gt;Transect&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="0_0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Normal0_00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Highlight0_00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="0_00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Normal0_01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Highlight0_0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="0_01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Normal0_0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Highlight0_01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="Highlight0_0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.earthpoint.us/Dots/GoogleEarth/paddle/ltblu-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="Highlight0_00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.earthpoint.us/Dots/GoogleEarth/paddle/ltblu-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="Highlight0_01">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.earthpoint.us/Dots/GoogleEarth/paddle/ltblu-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="Normal0_0">
+		<IconStyle>
+			<Icon>
+				<href>http://www.earthpoint.us/Dots/GoogleEarth/paddle/ltblu-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="Normal0_00">
+		<IconStyle>
+			<Icon>
+				<href>http://www.earthpoint.us/Dots/GoogleEarth/paddle/ltblu-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="Normal0_01">
+		<IconStyle>
+			<Icon>
+				<href>http://www.earthpoint.us/Dots/GoogleEarth/paddle/ltblu-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Meter</b></td><td>$[TBEP_Northshore_Seagrass_Transects_NAD_2011/Meter]</td></tr>
+  <tr><td><b>Transect</b></td><td>$[TBEP_Northshore_Seagrass_Transects_NAD_2011/Transect]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Meter</b></td><td>$[TBEP_Northshore_Seagrass_Transects_NAD_2011/Meter]</td></tr>
+  <tr><td><b>Transect</b></td><td>$[TBEP_Northshore_Seagrass_Transects_NAD_2011/Transect]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Sheet1</name>
+		<open>1</open>
+		<Placemark>
+			<name>TBW7_900</name>
+			<open>1</open>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_TBEP_Northshore_Seagrass_Transects_NAD_2011_II">
+					<SimpleData name="Meter">900</SimpleData>
+					<SimpleData name="Transect">7</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.61495664060642,27.78386866555497,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TBW7_950</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_TBEP_Northshore_Seagrass_Transects_NAD_2011_II">
+					<SimpleData name="Meter">950</SimpleData>
+					<SimpleData name="Transect">7</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.61455182396811,27.78359690040598,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TBW2_600</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_TBEP_Northshore_Seagrass_Transects_NAD_2011_II">
+					<SimpleData name="Meter">600</SimpleData>
+					<SimpleData name="Transect">2</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.6187262165234,27.78151797796123,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TBW2_650</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_TBEP_Northshore_Seagrass_Transects_NAD_2011_II">
+					<SimpleData name="Meter">650</SimpleData>
+					<SimpleData name="Transect">2</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.61833655090251,27.7812292354327,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TBW3_800</name>
+			<open>1</open>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_TBEP_Northshore_Seagrass_Transects_NAD_2011_II">
+					<SimpleData name="Meter">800</SimpleData>
+					<SimpleData name="Transect">3</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.61608126875035,27.78349715806955,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TBW3_850</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_TBEP_Northshore_Seagrass_Transects_NAD_2011_II">
+					<SimpleData name="Meter">850</SimpleData>
+					<SimpleData name="Transect">3</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.61569150346834,27.78320833516056,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NS1</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>Site-10</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>27.78114473</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>-82.62009704</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>-82.62009704</longitude>
+				<latitude>27.78114473</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.62009704,27.78114473,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NS2</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>Site-1</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>latitude</b></td><td class='cv'>27.78018641</td></tr><tr><td class='ch'><b>longitude</b></td><td class='cv'>-82.62109622</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>-82.62109622</longitude>
+				<latitude>27.78018641</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_01</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.62109622,27.78018641,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NS3</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>Site-02</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>latitude</b></td><td class='cv'>27.77946961</td></tr><tr><td class='ch'><b>longitude</b></td><td class='cv'>-82.62268837</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>-82.62268837000001</longitude>
+				<latitude>27.77946961</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_00</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.62268837000001,27.77946961,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ALT1</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>Site-12</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>Latitude</b></td><td class='cv'>27.77832019</td></tr><tr><td class='ch'><b>Longitude</b></td><td class='cv'>-82.62294913</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>-82.62294912999999</longitude>
+				<latitude>27.77832019</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_0</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.62294912999999,27.77832019,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ALT2</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>Site-04</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>latitude</b></td><td class='cv'>27.78230814</td></tr><tr><td class='ch'><b>longitude</b></td><td class='cv'>-82.61670737</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>-82.61670737</longitude>
+				<latitude>27.78230814</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_00</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.61670737,27.78230814,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ALT3</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<style type='text/css'>*{font-family:Verdana,Arial,Helvetica,Sans-Serif;box-sizing:border-box;padding:0px;margin:0px}table{border-collapse:collapse;border-spacing:0px;margin:2px}.trb{background-color:#ddffdd}.ch{vertical-align:top;padding-left:10px;white-space:nowrap}.cv{vertical-align:top;padding-left:6px;padding-right:10px;white-space:nowrap}.cw{vertical-align:top;padding-left:6px;padding-right:10px;width:600px}</style><table><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; white-space: nowrap;'><b>Site-05</b></td></tr><tr><td colspan='2' style='vertical-align: top; padding-left: 10px; padding-right: 10px; max-width: 400px; white-space: nowrap;'>&nbsp;</td></tr><tr class='trb'><td class='ch'><b>latitude</b></td><td class='cv'>27.77906678</td></tr><tr><td class='ch'><b>longitude</b></td><td class='cv'>-82.62294681</td></tr></table>]]></description>
+			<LookAt>
+				<longitude>-82.62294681</longitude>
+				<latitude>27.77906678</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#0_00</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.62294681,27.77906678,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
