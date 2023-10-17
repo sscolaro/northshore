@@ -50,13 +50,13 @@ dem[dem[] < -2] <- NA
 
 ##Select unstratified sampling; equal inclusion probability sampling
 #"https://cran.r-project.org/web/packages/spsurvey/vignettes/sampling.html"
-eqprob <- grts(nssg, n_base = 6)
+eqprob <- grts(nssg, n_base = 10)
 sp_plot(eqprob)
 
 
 #transform list of sites into a dataframe and project to prj4 for consistency
 sg_starts<- as.data.frame(eqprob$sites_base)
-write.csv(sg_starts, "C:\\Users\\sheil\\Desktop\\ns-sg\\sg_starts.csv")
+write.csv(sg_starts, "C:\\Users\\sscol\\Downloads\\Northshore_Flat\\northshoresg_starts_Alternates.csv")
 
 
 sg_starts_geo<-st_as_sf(sg_starts,coords = c("lon_WGS84","lat_WGS84"), crs=4326)
